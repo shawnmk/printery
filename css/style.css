@@ -179,6 +179,8 @@ footer {
 footer i {
 	margin-left: 4px;
 	margin-right: 1px;
+	position: relative;
+	top: 3px;
 }
 
 ul.lst {
