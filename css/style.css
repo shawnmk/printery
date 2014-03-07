@@ -50,6 +50,8 @@ h2.tagline {
 	display: block;
 	padding-bottom: 15px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 1px rgba(0,0,0,0.15);
+	-webkit-box-shadow: 0px 0px 1px rgba(0,0,0,0.15);
 }
 
 img.inkjeticon {
@@ -151,13 +153,6 @@ p.about {
 	padding: 10px 35px 10px 35px;
 	max-width: 526px;
 	display: inline-block;
-}
-
-@media only screen
-and (max-width : 500px) {
-	p.about {
-		max-width: none;
-	}
 }
 
 ul {
@@ -297,4 +292,20 @@ form {
 input#upload {
 	margin-top: .75em;
 	color: rgb(110, 110, 110);
+}
+
+@media only screen
+and (max-width : 500px) {
+	p.about {
+		max-width: none;
+	}
+	h2.tagline {
+		font-size: 41px;
+		padding: 0px 20px;
+	}
+	h1 {
+		width: 280px;
+		height: 60px;
+		background-size: 280px;
+	}
 }
