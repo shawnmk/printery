@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-	width: 377px;
+	max-width: 377px;
+	width: 100%;
 	height: 82px;
 	text-indent: -9999px;
 	margin-left: auto;
@@ -16,19 +17,39 @@ h1 {
 }
 
 h2.tagline {
-	width: 833px;
-	height: 120px;
-	background-image: url(/i/tagline_wallblank-printery.png);
-	text-indent: -9999px;
-	margin: 70px auto 30px;
+	margin: 40px auto 45px;
+	text-align: center;
+	font-size: 56px;
+	font-family: 'Spinnaker', sans-serif;
+}
+
+/*
+.tagline span {
+	text-transform: uppercase;
+}
+*/
+
+#circle {
+	margin: 0 auto;
+	margin-top: 54px;
+	width: 44px;
+}
+
+.inner-circle {
+	height: 8px;
+	width: 8px;
+	border-radius: 4px;
+	background: #EC1D1D;
+	display: inline-block;
+	margin: 2px;
 }
 
 .section {
-	margin-top: 20px;
-	margin-bottom: 50px;
+	margin: 20px 16px 50px 16px;
 	background: white;
 	display: block;
 	padding-bottom: 15px;
+	box-shadow: 0px 0px 1px rgba(0,0,0,0.15);
 }
 
 img.inkjeticon {
@@ -54,11 +75,22 @@ img.letterpressicon {
 }
 
 img.photo {
-	width: 780px;
+	max-width: 780px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
 	padding: 10px;
+}
+
+h4 {
+	padding: 25px 35px 0px 35px;
+	color: #232729;
+	font-family: "prenton-condensed-1","prenton-condensed-2",sans-serif;
+	text-transform: uppercase;
+	font-size: 1.7em;
+	letter-spacing: .1em;
+	font-weight: 300;
 }
 
 h3 {
@@ -79,8 +111,10 @@ h3.getstarted {
 	font-size: 3em;
 	margin-left: 0;
 	font-weight: 400;
-	padding: 1em 0 0.5em 0;
+	padding: 0.8em 0 0.58em 0;
 	background: none;
+	text-shadow: none;
+	color: #232729;
 }
 
 .section h3 i {
@@ -89,7 +123,7 @@ h3.getstarted {
 }
 
 i.upload-header {
-	color: #e53700;
+	color: #EC1D1D;
 }
 
 a {
@@ -98,7 +132,7 @@ a {
 }
 
 p a {
-	color: black;
+	color: #43A4DB;
 }
 
 a:hover {
@@ -109,14 +143,21 @@ p {
 	line-height: 1.4em;
 	font-size: 1.2em;
 	margin-top: 10px;
-	color: black;
+	color: #353A3D;
 	padding: 12px 35px 8px 35px;
 }
 
 p.about {
 	padding: 10px 35px 10px 35px;
-	width: 546px;
+	max-width: 526px;
 	display: inline-block;
+}
+
+@media only screen
+and (max-width : 500px) {
+	p.about {
+		max-width: none;
+	}
 }
 
 ul {
@@ -128,16 +169,16 @@ ul {
 }
 
 ul li a {
-	color: black;
+	color: #43A4DB;
 }
 
 footer {
 	text-align: center;
 	height: 3em;
 	width: 100%;
-	background: black;
+	background: #CBD3D6;
 	padding-top: 2em;
-	color: white;
+	color: #7C8488;
 }
 
 footer i {
@@ -177,18 +218,21 @@ fieldset p {
 }
 
 #content {
-	width: 800px;
+	max-width: 800px;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	line-height: 1.2;
 }
 
 #cta {
-	background-color: #009fd0;
+	background-color: #F2F4F5;
+	border-top: 16px solid #232729;
 }
 
 #ctacontent {
-	width: 800px;
+	max-width: 800px;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	line-height: 1.2;
@@ -200,12 +244,13 @@ p.paperswitcher {
 
 p.uploadoptions {
 	margin-left: 3em;
+	font-weight: bold;
 }
 
 p.uploadoptions i {
 	font-size: 1.6em;
 	position: absolute;
-	padding-top: 2px;
+	padding-top: 3px;
 }
 
 i.dropbox {
@@ -213,7 +258,7 @@ i.dropbox {
 }
 
 i.upload {
-	color: #e53700;
+	color: #EC1D1D;
 }
 
 i.email {
@@ -230,7 +275,8 @@ button {
 }
 
 form {
-	width: 465px;
+	max-width: 465px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1.4em;
