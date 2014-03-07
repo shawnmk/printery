@@ -310,4 +310,8 @@ and (max-width : 500px) {
 		height: 60px;
 		background-size: 280px;
 	}
+	footer {
+		line-height: 25px;
+		height: 6.5em;
+	}
 }
