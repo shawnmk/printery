@@ -1,0 +1,227 @@
+body {
+	background: url(/i/stardust.png) repeat #313131;
+	color: white;
+	font-weight: 300;
+}
+
+h1 {
+	width: 377px;
+	height: 82px;
+	text-indent: -9999px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(/i/logo_wallblank-printery.png);
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+h2.tagline {
+	width: 833px;
+	height: 120px;
+	background-image: url(/i/tagline_wallblank-printery.png);
+	text-indent: -9999px;
+	margin: 70px auto 30px;
+}
+
+.section {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background: url(/i/bg-paragraph.png) repeat;
+	display: block;
+	padding-bottom: 15px;
+}
+
+img.inkjeticon {
+	width:  127px;
+	height: 90px;
+	float: left;
+	margin: 20px 20px 10px 35px;
+}
+
+img.instagramicon {
+	width:  140px;
+	height: 140px;
+	float: left;
+	margin: 20px 20px 10px 35px;
+}
+
+img.letterpressicon {
+	width:  130px;
+	height: 129px;
+	float: left;
+	margin: 20px 20px 10px 35px;
+}
+
+img.photo {
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+h3 {
+	font-size: 1.7em;
+	font-weight: 300;
+	text-shadow: rgba(0,0,0,0.28) 0 1px 0;
+	margin-left: -15px;
+	background: rgb(0, 68, 89);
+	padding: 16px 20px;
+	display: inline block;
+	margin-top: 10px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-bottom: 5px;
+}
+
+h3.getstarted {
+	text-align: center;
+	font-size: 3em;
+	margin-left: 0;
+	font-weight: 900;
+	padding-top: 1em;
+	background: none;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+p a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.4em;
+	font-size: 1.2em;
+	margin-top: 10px;
+	color: black;
+	padding: 10px 35px 0;
+}
+
+ul {
+	line-height: 1.2em;
+	font-size: 1.2em;
+	margin-top: 10px;
+	color: black;
+	padding: 10px 35px 0;
+}
+
+ul li a {
+	color: black;
+}
+
+footer {
+	text-align: center;
+	height: 3em;
+	width: 100%;
+	background: black;
+	padding-top: 2em;
+	color: white;
+}
+
+footer i {
+	margin-left: 4px;
+	margin-right: 1px;
+}
+
+ul.lst {
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+
+ul.lst li {
+	display: block;
+	padding: 3px 7px;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+	color: black;
+}
+
+ul.lst li span {
+	float: left;
+}
+
+ul.lst li em {
+	float: right;
+	font-style: normal;
+	font-weight: normal;
+}
+
+fieldset p {
+	color: #313131;
+	text-align: center;
+	font: bold 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#content {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 1.2;
+}
+
+#cta {
+	background-color: #009fd0;
+}
+
+#ctacontent {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 1.2;
+}
+
+p.paperswitcher {
+	text-align: center;
+}
+
+p.uploadoptions {
+	margin-left: 3em;
+}
+
+p.uploadoptions i {
+	font-size: 1.6em;
+	position: absolute;
+	padding-top: 2px;
+}
+
+p i {
+	margin-left: -1.6em;
+	margin-right: .4em;
+}
+
+button {
+	margin-top: 5px;
+}
+
+form {
+	width: 465px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.4em;
+}
+
+.button-submit {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    float: right;
+	margin-right: 3px;
+}
+
+.button-submit {
+    background: rgb(110, 110, 110);
+}
+
+input#upload {
+	margin-top: .75em;
+	color: rgb(110, 110, 110);
+}
