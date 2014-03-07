@@ -11,7 +11,7 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(/i/logo_wallblank-printery.png);
-	margin-top: 35px;
+	margin-top: 64px;
 	margin-bottom: 15px;
 }
 
@@ -26,7 +26,7 @@ h2.tagline {
 .section {
 	margin-top: 20px;
 	margin-bottom: 50px;
-	background: url(/i/bg-paragraph.png) repeat;
+	background: white;
 	display: block;
 	padding-bottom: 15px;
 }
@@ -35,7 +35,8 @@ img.inkjeticon {
 	width:  127px;
 	height: 90px;
 	float: left;
-	margin: 20px 20px 10px 35px;
+	margin: 24px 1px 17px 44px;
+	display: inline-block;
 }
 
 img.instagramicon {
@@ -64,8 +65,7 @@ h3 {
 	font-size: 1.7em;
 	font-weight: 300;
 	text-shadow: rgba(0,0,0,0.28) 0 1px 0;
-	margin-left: -15px;
-	background: rgb(0, 68, 89);
+	background: #232729;
 	padding: 16px 20px;
 	display: inline block;
 	margin-top: 10px;
@@ -78,9 +78,18 @@ h3.getstarted {
 	text-align: center;
 	font-size: 3em;
 	margin-left: 0;
-	font-weight: 900;
-	padding-top: 1em;
+	font-weight: 400;
+	padding: 1em 0 0.5em 0;
 	background: none;
+}
+
+.section h3 i {
+	position: relative;
+	top: 4px;
+}
+
+i.upload-header {
+	color: #e53700;
 }
 
 a {
@@ -101,11 +110,17 @@ p {
 	font-size: 1.2em;
 	margin-top: 10px;
 	color: black;
-	padding: 10px 35px 0;
+	padding: 12px 35px 8px 35px;
+}
+
+p.about {
+	padding: 10px 35px 10px 35px;
+	width: 546px;
+	display: inline-block;
 }
 
 ul {
-	line-height: 1.2em;
+	line-height: 1.6em;
 	font-size: 1.2em;
 	margin-top: 10px;
 	color: black;
@@ -191,6 +206,18 @@ p.uploadoptions i {
 	font-size: 1.6em;
 	position: absolute;
 	padding-top: 2px;
+}
+
+i.dropbox {
+	color: #007ee5;
+}
+
+i.upload {
+	color: #e53700;
+}
+
+i.email {
+	color: #e5a500;
 }
 
 p i {
