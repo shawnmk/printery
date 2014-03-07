@@ -120,8 +120,15 @@ h3.getstarted {
 }
 
 .section h3 i {
+	float: right;
+	color: #666262;
 	position: relative;
-	top: 4px;
+	top: 3px;
+}
+
+.section h3 i.sell {
+	float: none;
+	color: white;
 }
 
 i.upload-header {
@@ -298,17 +305,20 @@ input#upload {
 
 @media only screen
 and (max-width : 500px) {
-	p.about {
-		max-width: none;
+	h1 {
+		width: 280px;
+		height: 60px;
+		background-size: 280px;
 	}
 	h2.tagline {
 		font-size: 41px;
 		padding: 0px 20px;
 	}
-	h1 {
-		width: 280px;
-		height: 60px;
-		background-size: 280px;
+	.section h3 i {
+		display: none;
+	}
+	.pure-form fieldset {
+		padding: 0px 30px 10px 30px;
 	}
 	footer {
 		line-height: 25px;
